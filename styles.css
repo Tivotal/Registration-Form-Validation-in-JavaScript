@@ -1,0 +1,107 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+}
+
+.form {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form h2 {
+  font-size: 27px;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form .form-group label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.form .form-group input,
+.form .form-group select {
+  height: 45px;
+  width: 100%;
+  background: #fff;
+  outline: none;
+  border: 1px solid #bfbfbf;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.form .form-group input.error,
+.form .form-group select.error {
+  border-color: #f9a9a9;
+  background: #f9f0f1;
+}
+
+.form .form-group input:focus,
+.form .form-group select:focus {
+  border-color: #9a9a9a;
+}
+
+.form .form-group .error-text {
+  font-size: 13px;
+  margin-top: 5px;
+  display: block;
+  color: #f9a9a9;
+}
+
+.form .form-group i {
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 15px;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+
+.form .btn {
+  margin-top: 30px;
+}
+
+.form .btn input {
+  height: auto;
+  cursor: pointer;
+  background: #4070f4;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.form .btn input:hover {
+  background: #2660ff;
+}
